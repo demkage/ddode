@@ -1,0 +1,10 @@
+connection:
+  host: localhost
+  port: 8080
+  rules:
+    accept_cookies: True
+    reject_cookies_after: -1
+proxies:
+  - host: "194.226.34.132"
+    port: 5555
+    headers: {}  
